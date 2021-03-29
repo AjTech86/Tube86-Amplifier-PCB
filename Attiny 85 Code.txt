@@ -1,0 +1,20 @@
+/*       ATTINY 85 VALVE AMP CONTROLLER(PCL86) 
+   Devised by aJTech.2021 for use with 19/20 volt 4amp laptop
+   power supplies and PCL86 valves requiring approx 13 volts
+   for the heater supply.Features soft start and auto fault
+   shutdown with audible alert. */
+int a = 175; // Max pulsewith after s.start delay 
+int b = 448; // approx = 6.5v shutdown voltage    
+int pw = 0;
+void setup(){
+  DDRB = 18; //Sets Pin1 & Pin4 as Outputs
+  PORTB = 0; //Sets Outputs LOW
+  analogWrite(0,0);} //Sets pulsewidth to zero
+void loop(){
+  if(analogRead(A1) > b || analogRead(A3) > b)
+  {analogWrite(0,0); PORTB = 16; delay(100); shutdown();}
+  if(pw < a){pw++;} analogWrite(0,pw); delay(4);}
+void shutdown(){
+  for(int x = 0; x < 200; x++)
+  {PORTB = PORTB ^ 2; delayMicroseconds(63);} 
+  delay (25);shutdown();}  
