@@ -1,0 +1,48 @@
+﻿
+
+		      PARTS LIST
+
+	IC1		 78M05 Regulator
+	IC2		 ATMEL- ATTINY85-20PU
+	PCB		 Gerber File at github.com	  	
+	V1,V2        	 PCL86 Valves   X2
+	Output Transformers X2 (EL84 Type)	 	
+	FET		 FDD8447L MOSFET
+	ZVS DC-DC 8-32V to ±45V-390V  X2
+	B9A  Ceramic Valve Bases  X2
+	
+	C1,C2,C11,C20     100nf     100v
+	C3,C7,C14,C21     220uf     25v			
+	C4,C12                 47uf  Tantalum 16v															
+	C5,C13    	            150nf     400v	   															C6,C15 	            1500pf   600v	
+	C8,C17                 22uf      400v																C9,C18                 4.7uf     400v																C10,C19               22nf      100v 																	 
+	R1,R2,R23             10k           1/4 watt
+	R5	             470	1/4 watt
+	R2,R10,R28           4.7K   	1/4 watt
+	R37,R38                10k           1/4 watt
+	R6,R22	             120           1watt
+	R7,R12,R15,          470k         1/4 watt
+	R13,R27	             1.8k          1 watt
+	R14,R32	             2.2k          1/4 watt
+	R18,R34	             27             1/4 watt
+	R20,R30,R33        470k          1/4 watt
+	R22,R29               220           1watt
+	R8,R26                 20k           1/4 watt
+	R9,R24	             2k             1/4  watt
+	R11,R25	             220k         1/4 watt
+	R36,R19	             2.2k          1/4  watt
+
+	VR1           2k    Lin    + Knob
+	VR2	  50k  Log   + Knob
+	8 pin DIL socket
+	3mm high bright Green Leds  X2
+	5mm Red Led prewired diffused 5-12v
+	2way pcb terminal block 5mm pitch X4
+	Buzzer 12mm diam. Passive
+	240v 15watt fridge lamp
+	12v   10watt auto bulb
+	1.6amp     in circuit fuse
+	DC Power Socket panel mount
+	Loudspeaker Terminal 4way quick release
+	3.5mm 3 pole chassis jack socket
+	4Way Screw Barrier Terminal Block Strip Connector
