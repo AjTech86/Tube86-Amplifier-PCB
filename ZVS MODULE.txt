@@ -1,0 +1,18 @@
+                                             ZVS BOOST CONVERTER MODULE
+
+               I powered the amplifier with two of these modules – one for each channel. 
+               Connect the 20 volt supply to " IN " and a 15watt fridge lamp to the output
+	and adjust to 220 volts or as near as you can get. Disconnect the lamp. Remove 
+	the link on the "on/off pins", if there is one, and with some cutters cut down the
+	one furthest from the heatsink leaving enough to solder a thinwire to of about 12 
+	cms long. A spare Dupont cable will do for this. This wire will eventually connect
+ 	to one of the "shut down" points on the main PCB. Repeat all the above for both 
+	modules. They seemed to run hotter than I liked and it was not the FETs or their 
+	heatsinks that were doing this but the transformers. So I fixed heatsinks 20mm 
+	square to the top of them with cable ties after applying  some heatsink compound. 
+	I found that if I used thin ones (of the right length) and with a bit of jiggling they
+               would deflect off the heatsink and up and over the top of the transformer. Maybe I 
+	was being over cautious by doing this but for reliability I'd rather err on the safe 
+	side. The modules can be put to one side now until the PCB is completed.
+                 
+               
